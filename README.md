@@ -36,3 +36,8 @@ Workout Reminders
 Rewards for Achievements (Trophies)
 
 ## Design (wireframes)
+![](../../../Desktop/Courses/COM-473%20-%20Mobile%20Application%20Development/Term%20Project/App%20Wireframe/Splash%20Screen@1x.png)
+
+![](../../../Desktop/Courses/COM-473%20-%20Mobile%20Application%20Development/Term%20Project/App%20Wireframe/Login%252FSignup%20Page@1x.png)
+
+![](../../../Desktop/Courses/COM-473%20-%20Mobile%20Application%20Development/Term%20Project/App%20Wireframe/Home%20Page@1x.png)
