@@ -1,21 +1,22 @@
 # Fitness-Android-App
 
-# About this project
+## About this project
 FITSAL is a fitness app with various exercises to help users achieve their fitness goals. FITSAL provides users with daily exercises depending on the goal that they set. For example, the app will give the user a set of exercises to do every day for 30 days or 90 days if that is the user’s goal. The app will give users the option to chose whether they working out at home or at the gym and will give them exercises accordingly. 
 The app will track the user’s activity and will give them a progress update. The app will send a notification reminder on a specific time of the day that the user has set previously.
 
-# Problem Addressing
-A lot of people are struggling on their journey to lose weight, they can’t stay consistant or motivated because they cannot afford a personal trainer. At the gym, they have no idea where to start or what to do. We know the journey to lose weight can be harsh and stressful for most. FITSAL will help those people to stay on track.
+## Problem Addressing
+A lot of people are struggling on their journey to lose weight, they can’t stay consistent or motivated because they cannot afford a personal trainer. At the gym, they have no idea where to start or what to do. We know the journey to lose weight can be harsh and stressful for most. FITSAL will help those people to stay on track.
 
-# Platforms
+## Platforms
 The platforms used for this app are:
 Android Studio
 MIT App Inventor
 GitHub
-Front/Back end support
+
+## Front/Back end support
 Java
 
-# Features and Functionalities
+## Features and Functionalities
 Registration and login
 Name
 Email
@@ -34,4 +35,4 @@ Overall progress
 Workout Reminders
 Rewards for Achievements (Trophies)
 
-# Design (wireframes)
+## Design (wireframes)
