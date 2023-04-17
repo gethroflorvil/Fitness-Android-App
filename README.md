@@ -14,6 +14,7 @@ MIT App Inventor
 GitHub
 
 ## Front/Back end support
+Kotlin
 Java
 
 ## Features and Functionalities
