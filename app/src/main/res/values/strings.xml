@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GymAppFinalProj</string>
+
+    <string name="time_prompt">Select preferred workout time</string>
+    <string name="todo">TODO</string>
+    <string name="workouts">Workouts</string>
+    <string name="customize_activities">Customize activities</string>
+    <array name="time_options">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+    </array>
+
+</resources>

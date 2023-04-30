@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="">
+
+
+    <View
+        android:id="@+id/purple_background"
+        android:layout_width="412dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_backgroundbottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/workout_icontext"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:background="@color/purple"
+        android:onClick="launchWorkoutSelection"
+        android:paddingTop="0.5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/workout_icontext"
+        app:layout_constraintBottom_toBottomOf="@+id/purple_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="@+id/purple_background"
+        app:layout_constraintTop_toTopOf="@+id/purple_background"
+        app:layout_constraintVertical_bias="0.466"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+
+    <ImageButton
+        android:id="@+id/activities_icontext"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="60dp"
+        android:background="@color/purple"
+        android:paddingTop="0.5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/activities_icontext"
+        android:onClick="launchHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/workout_icontext"
+        app:layout_constraintTop_toTopOf="@+id/purple_background"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/user_profiletext"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:background="@color/purple"
+        android:paddingTop="0.5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/user_profiletext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/activities_icontext"
+        app:layout_constraintTop_toTopOf="@+id/purple_background"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
