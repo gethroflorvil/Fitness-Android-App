@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "544981695477",
+    "project_id": "fitsal-fitness-app",
+    "storage_bucket": "fitsal-fitness-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544981695477:android:cd653c07f9047d0b2ffebc",
+        "android_client_info": {
+          "package_name": "com.gethro.gymappfinalproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544981695477-l86ckqh4k7k3h4d2os314mjjf0kcltt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd8uqGcpewMlDQCrfGGT99j3nxT9eULFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544981695477-l86ckqh4k7k3h4d2os314mjjf0kcltt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -10,6 +10,7 @@
         android:id="@+id/include"
         layout="@layout/toolbar" />
 
+
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
@@ -20,27 +21,293 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098"
+        app:layout_constraintVertical_bias="0.027"
         tools:ignore="HardcodedText" />
 
 
-    <ImageButton
-        android:id="@+id/user_profiletext"
-        android:layout_width="48dp"
-        android:layout_height="51dp"
-        android:layout_marginEnd="324dp"
-        android:background="@android:color/transparent"
-        android:paddingTop="0.5dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/menus"
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.355"
-        app:layout_constraintStart_toStartOf="@+id/include"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        tools:ignore="ContentDescription,SpeakableTextPresentCheck"
-        app:tint="@android:color/black" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.094">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- Frame 1 -->
+            <FrameLayout
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="2dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/workoutimage4"
+
+                    />
+
+
+                <Button
+                    android:id="@+id/startButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Start" />
+
+                <TextView
+                    android:id="@+id/intenseworkouttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginBottom="22dp"
+                    android:shadowColor="@color/black"
+                    android:text="Intense Workout"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+            </FrameLayout>
+
+            <!-- Frame 2 -->
+
+            <FrameLayout
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="2dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/workoutimage2" />
+
+                <Button
+                    android:id="@+id/startButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Start" />
+
+                <TextView
+                    android:id="@+id/meditationtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginBottom="22dp"
+                    android:shadowColor="@color/black"
+                    android:text="Meditation"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+            </FrameLayout>
+
+            <!-- Frame 3 -->
+
+            <FrameLayout
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="2dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/workoutimage5" />
+
+                <Button
+                    android:id="@+id/startButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Start" />
+
+                <TextView
+                    android:id="@+id/proworkouttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginBottom="22dp"
+                    android:shadowColor="@color/black"
+                    android:text="Pro Workout"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_layout"
+        app:layout_constraintBottom_toTopOf="@+id/framelayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
+
+
+        <Button
+            android:id="@+id/startButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="8dp"
+            android:text="Start" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:shadowColor="@color/black"
+            android:text="Deadlift"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:shadowColor="@color/black"
+            android:text="3 sets | 12 reps | 1 minute"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout2"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+
+        <Button
+            android:id="@+id/startButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="8dp"
+            android:text="Start" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:shadowColor="@color/black"
+            android:text="Pushups"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:shadowColor="@color/black"
+            android:text="2 sets | 25 reps | 1 minute"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout3"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="2dp"
+        android:background="@drawable/rounded_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/framelayout2"
+        app:layout_constraintVertical_bias="0.063">
+
+
+        <Button
+            android:id="@+id/startButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="8dp"
+            android:text="Start" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:shadowColor="@color/black"
+            android:text="Abs"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:shadowColor="@color/black"
+            android:text="4 sets | 12 reps | 1 minute"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+
+    </FrameLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
