@@ -20,21 +20,21 @@ Google Firebase
 
 ## Features and Functionalities
 Registration and login
-Name
-Email
-Birth date
-Phone (Optional)
-Manage Profile
-Add Picture
-Change Name
-Set Goal (Workout Plan)
-Set of exercises
-Home exercises
-Gym exercises
-Track user’s progress
-Daily progress
-Overall progress
-Workout Reminders
+Name -
+Email -
+Birth date -
+Phone (Optional) -
+Manage Profile -
+Add Picture -
+Change Name -
+Set Goal (Workout Plan) -
+Set of exercises -
+Home exercises -
+Gym exercises -
+Track user’s progress -
+Daily progress -
+Overall progress -
+Workout Reminders -
 Rewards for Achievements (Trophies)
 
 ## Design (wireframes)
