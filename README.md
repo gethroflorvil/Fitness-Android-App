@@ -9,13 +9,13 @@ A lot of people are struggling on their journey to lose weight, they can’t sta
 
 ## Platforms
 The platforms used for this app are:
-Android Studio
-MIT App Inventor
-GitHub
+Android Studio |
+MIT App Inventor |
+GitHub 
 
 ## Front/Back end support
-Kotlin
-Java
+Kotlin |
+Java |
 Google Firebase
 
 ## Features and Functionalities
