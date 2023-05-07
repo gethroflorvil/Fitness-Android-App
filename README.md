@@ -16,6 +16,7 @@ GitHub
 ## Front/Back end support
 Kotlin
 Java
+Google Firebase
 
 ## Features and Functionalities
 Registration and login
